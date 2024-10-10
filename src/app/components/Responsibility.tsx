@@ -6,7 +6,7 @@ function Responsibility({}: Props) {
   return (
     <>
     <div className="top-row p-[80px]">
-        <h3 className='text-2xl p-4'> In a world of AI we choose to be <span className='bg-black text-white p-3 w-[60px]'> responsible </span></h3>
+        <h3 className='text-2xl p-4'> In a world of AI we choose to be <span className='bg-black text-white p-3 w-[160px] px-[60px]'> responsible </span></h3>
     </div>
 
     <div className="bottom-row bg-black text-white flex p-[70px] space-x-[250px]">

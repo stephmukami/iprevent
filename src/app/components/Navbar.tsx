@@ -34,14 +34,19 @@ function Navbar({}: Props) {
 
           
         <div className="auth-btns flex justify-center items-center  bg-secondary-grey rounded-3xl h-[50px] w-[190px] border border-emerald-500 space-x-4">
+        <Link href="/register">
             <div>
             <h3 className='font-bold'>Register</h3>
             </div>
+        </Link>
             
             <div>
+            <Link href="/login">
             <div className='flex items-center justify-center bg-white rounded-2xl w-[80px] h-[30px]'>
                 <h3>Log In</h3>
             </div>
+            </Link>
+
 
             </div>
 
