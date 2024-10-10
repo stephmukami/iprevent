@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+import ToasterContext from "./context/ToasterContext";
+import AuthProvider from "./context/AuthContext";
+
+
+const instrumentSans = localFont({
+  src: "./fonts/InstrumentSans.woff2",
+  variable: "--font-instrument-sans",
   weight: "100 900",
 });
 
@@ -26,9 +25,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${instrumentSans.variable}  antialiased`}
       >
+        <AuthProvider>
+        <ToasterContext/>
         {children}
+        </AuthProvider>
       </body>
     </html>
   );

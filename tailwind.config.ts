@@ -14,7 +14,9 @@ const config: Config = {
         "brand-blue":"#A5CABB",
         "brand-white":"#FCFCFC",
         "brand-grey":"#DFE3E4",
-        "brand-black": "#FFF"
+        "brand-black": "#FFF",
+        "secondary-grey": "#DFE3E466"
+
       },
     },
   },
