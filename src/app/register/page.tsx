@@ -1,19 +1,17 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import AboutContent from '../components/AboutContent'
 import Footer from '../components/Footer'
-
+import Register from '../components/Register'
 
 type Props = object
 
 function page({}: Props) {
   return (
-    <div>
-        <Navbar/>
-        <AboutContent/>
-        <Footer/>
-
-    </div>
+    <>
+    <Navbar/>
+    <Register/>
+    <Footer/>
+    </>
   )
 }
 
