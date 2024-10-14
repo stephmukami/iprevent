@@ -5,7 +5,7 @@ type Props = object
 function Footer({}: Props) {
   return (
     <>
-    <footer className="flex justify-center items-center py-4 bg-black text-white">
+    <footer className="flex justify-center items-center py-4 bg-black text-white w-screen">
         <h3>
         Three Amigos.dev   ❤   
 

@@ -6,7 +6,6 @@ type Props = object
 
 function LoginPage({}: Props) {
   return (
-    <>
      <>
      <div className="flex-container flex flex-col lg:flex-row p-[60px] space-y-[20px] lg:space-x-[110px] min-h-screen min-w-screen">
         
@@ -42,7 +41,6 @@ function LoginPage({}: Props) {
         <img className='w-full h-full' src="./iprevent-seven.jpg" alt="image of brocolli" />
         </div>
     </div>
-    </>
     </>
   )
 }

@@ -18,6 +18,9 @@ const config: Config = {
         "secondary-grey": "#DFE3E466",
         "input-grey": "#EAEAEA",
         "brand-green": "#C2EFDC",
+        "brand-purple" :"#7C3AED",
+        "secondary-black": "#302E38"
+
 
       },
     },
