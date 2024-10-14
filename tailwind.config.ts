@@ -16,6 +16,7 @@ const config: Config = {
         "brand-grey":"#DFE3E4",
         "brand-black": "#FFF",
         "secondary-grey": "#DFE3E466",
+        "input-grey": "#EAEAEA",
         "brand-green": "#C2EFDC",
 
       },
