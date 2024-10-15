@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "brand-peach": "#FEF3C7",
+        "brand-peach": "#FDA4AF",
         "secondary-blue" : "#CCE5E2",
         "brand-blue":"#A5CABB",
         "brand-white":"#FCFCFC",

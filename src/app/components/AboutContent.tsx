@@ -16,22 +16,25 @@ function AboutContent({}: Props) {
 
     <div className="second-row p-6">
     <h3 className='text-black text-2xl mb-4 text-center'>How it Works</h3>
-    <div className="flex-container flex items-center justify-center space-x-[120px] py-4">
+        <div className="flex-container flex flex-col items-center md:justify-center space-y-4 md:flex-row md:space-y-0 md:space-x-[120px] py-4">
+
         <div className='bg-brand-green w-[270px] h-[220px] rounded-xl p-4 text-center'>
-            <h4 className='font-bold mb-4'>Lorem Ipsum</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi est nisi laboriosam eligendi!</p>
+          <h4 className='font-bold mb-4'>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi est nisi laboriosam eligendi!</p>
         </div>
 
         <div className='bg-brand-peach w-[270px] h-[220px] rounded-xl p-4 text-center'>
-            <h4 className='font-bold mb-4'>Lorem Ipsum</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi est nisi laboriosam eligendi!</p>
+          <h4 className='font-bold mb-4'>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi est nisi laboriosam eligendi!</p>
         </div>
 
         <div className='bg-brand-blue w-[270px] h-[220px] rounded-xl p-4 text-center'>
-            <h4 className='font-bold mb-4'>Lorem Ipsum</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi est nisi laboriosam eligendi!</p>
+          <h4 className='font-bold mb-4'>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi est nisi laboriosam eligendi!</p>
         </div>
+
     </div>
+
 
     </div>
     </>

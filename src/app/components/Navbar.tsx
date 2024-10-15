@@ -6,7 +6,7 @@ type Props = object
 function Navbar({}: Props) {
   return (
     <div>
-        <nav className='border border-red-400 flex justify-center items-center space-x-[240px] '>
+        <nav className='border border-red-400 flex justify-center  items-center space-x-[240px] '>
 
         <div className='logo-section border border-green-950 relative right-2 '>
         <Link href="/">
