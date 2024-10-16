@@ -6,20 +6,20 @@ type Props = object
 function Navbar({}: Props) {
   return (
     <div>
-        <nav className='border border-red-400 flex justify-center  items-center space-x-[240px] '>
+        <nav className='border border-red-400 flex flex-col md:flex-row justify-center  items-center md:space-x-[240px] space-x-4 '>
 
-        <div className='logo-section border border-green-950 relative right-2 '>
-        <Link href="/">
-        <div className="logo-section  flex justify-center items-center space-x-6 ">
-            <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/1A1A1A/square-90.png" alt="square-90"/>
-            <h2 className='text-2xl'>iPrevent</h2>
-        
-        </div> 
-        </Link>
+        <div className='logo-section border border-green-950 relative right-2  m-2 md:m-0'>
+            <Link href="/">
+            <div className="logo-section  flex justify-center items-center space-x-6 ">
+                <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/1A1A1A/square-90.png" alt="square-90"/>
+                <h2 className='text-2xl'>iPrevent</h2>
+            
+            </div> 
+            </Link>
         
         </div>
 
-        <div className=' font-light text-lg text-section flex justify-center items-center space-x-20 border border-orange-950 p-2'>
+        <div className=' font-light text-lg text-section flex flex-col md:flex-row justify-center items-center md:space-x-20 border space-y-2 md:space-y-0 border-orange-950 p-2'>
             <Link href="/">
             <h3 className='border-b-2 border-transparent hover:border-b-2 hover:border-b-black transition ease-in'>Home</h3>
             </Link>
