@@ -1,18 +1,18 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Gender from '../components/Gender'
+import React from "react";
+import Navbar from "../(components)/Navbar";
+import Footer from "../(components)/Footer";
+import Gender from "../(components)/Gender";
 
-type Props = object
+type Props = object;
 
 function page({}: Props) {
   return (
     <>
-    <Navbar/>
-    <Gender/>
-    <Footer/>
+      <Navbar />
+      <Gender />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default page
+export default page;

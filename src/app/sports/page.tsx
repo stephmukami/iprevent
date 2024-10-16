@@ -1,18 +1,18 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Sports from '../components/Sports'
+import React from "react";
+import Navbar from "../(components)/Navbar";
+import Footer from "../(components)/Footer";
+import Sports from "../(components)/Sports";
 
-type Props = object
+type Props = object;
 
 function page({}: Props) {
   return (
     <>
-    <Navbar/>
-    <Sports/>
-    <Footer/>
+      <Navbar />
+      <Sports />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default page
+export default page;
