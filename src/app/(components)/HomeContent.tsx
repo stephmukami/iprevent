@@ -7,7 +7,7 @@ function HomeContent({}: Props) {
     <main className='md:p-8 p-2'>
       <div className="flex-container flex flex-col md:flex-row  space-x-[80px] ">
 
-      <div className="flex-col-one border border-gray-700  md:w-[450px] mb-4 md:mb-0 md:p-0 p-2">
+      <div className="flex-col-one  md:w-[450px] mb-4 md:mb-0 md:p-0 p-2">
         <h1 className='font-bold text-3xl mb-[50px]'>
           Lorem ipsum dolor sit amet, consectetur adipiscing 
         </h1>

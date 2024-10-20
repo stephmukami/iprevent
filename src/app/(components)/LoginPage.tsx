@@ -58,7 +58,7 @@ function LoginPage({}: Props) {
      <>
      <div className="flex-container flex flex-col lg:flex-row p-[60px] space-y-[20px] lg:space-x-[110px] min-h-screen min-w-screen">
         
-        <div className="form-container md:w-1/3 border border-red-500 p-[40px]">
+        <div className="form-container md:w-1/3  p-[40px]">
             <h2 className='text-3xl mb-3'>Welcome back to iPrevent !</h2>
             <h4 className='mb-4 md:mb-0 m-0'>
                 Do not have an account? 
@@ -74,7 +74,7 @@ function LoginPage({}: Props) {
                         <label htmlFor="last-name">Email Address </label>
                     </div>
 
-                    <div className='mb-8 md:w-[370px] w-[200px]  border border-emerald-400'>
+                    <div className='mb-8 md:w-[370px] w-[200px]  '>
                         <input  className="bg-input-grey md:w-[370px] w-full  rounded-sm h-[32px]"
                                        placeholder=" e.g. johndoe@gmail.com"
                                        id="email"
@@ -93,7 +93,7 @@ function LoginPage({}: Props) {
                         <label htmlFor="last-name">Password</label>
                     </div>
 
-                    <div className='mb-8 md:w-[370px] w-[200px] border border-emerald-400'>
+                    <div className='mb-8 md:w-[370px] w-[200px] '>
                         <input  className="bg-input-grey md:w-[370px] w-full  rounded-sm h-[32px]" type="password" 
                                           id="password"
                                           name="password"

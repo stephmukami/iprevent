@@ -76,7 +76,7 @@ function Register({}: Props) {
     <>
         <div className="flex-container flex flex-col lg:flex-row p-[60px] space-y-[20px] md:space-x-[110px] md:min-h-screen md:min-w-screen justify-center items-center">
         
-            <div className="form-container w-screen md:w-1/3 border border-red-500 p-[40px] ">
+            <div className="form-container w-screen md:w-1/3  p-[40px] ">
                 <h2 className='text-3xl mb-3'>Sign Up to iPrevent</h2>
                 <h4>Already have an account? 
                     <Link href="/login">
@@ -88,7 +88,7 @@ function Register({}: Props) {
                         <label htmlFor="first-name" >First Name</label>
                     </div>
 
-                    <div className='mb-8 md:w-[370px]  border border-emerald-400'>
+                    <div className='mb-8 md:w-[370px]  '>
                         <input  className="bg-input-grey md:w-[370px] w-full  rounded-sm h-[32px]" 
                         type="text" 
                         placeholder=" e.g. John"
@@ -110,7 +110,7 @@ function Register({}: Props) {
                         <label htmlFor="last-name">Last Name</label>
                     </div>
 
-                    <div className='mb-8 md:w-[370px]  border border-emerald-400'>
+                    <div className='mb-8 md:w-[370px]  '>
                         <input  className="bg-input-grey md:w-[370px] w-full  rounded-sm h-[32px]" type="text" 
                         required
                         placeholder=" e.g. Smith"
@@ -131,7 +131,7 @@ function Register({}: Props) {
                         <label htmlFor="last-name">Email Address </label>
                     </div>
 
-                    <div className='mb-8 md:w-[370px]  border border-emerald-400'>
+                    <div className='mb-8 md:w-[370px] '>
                         <input  className="bg-input-grey md:w-[370px] w-full  rounded-sm h-[32px]" type="email" 
                         placeholder=" e.g. janesmith@gmail.com"
                         id="email"
@@ -152,7 +152,7 @@ function Register({}: Props) {
                         <label htmlFor="last-name">Password</label>
                     </div>
 
-                    <div className='mb-8 md:w-[370px]  border border-emerald-400'>
+                    <div className='mb-8 md:w-[370px]  '>
                         <input  className="bg-input-grey md:w-[370px] w-full  rounded-sm h-[32px]" type="password" 
                         id="password"
                         name="password"
@@ -171,7 +171,7 @@ function Register({}: Props) {
                 </form>
             </div>
 
-        <div className="image-container  border border-red-300 md:w-2/3 ">
+        <div className="image-container   md:w-2/3 ">
             <img className='md:w-full md:h-full w-screen h-[300px]' src="./iprevent-five.avif" alt="image of a doctor" />
         </div>
     </div>
