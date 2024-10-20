@@ -19,7 +19,9 @@ const config: Config = {
         "input-grey": "#EAEAEA",
         "brand-green": "#C2EFDC",
         "brand-purple" :"#7C3AED",
-        "secondary-black": "#302E38"
+        "secondary-black": "#302E38",
+        "navbar-bg": "#f8fafc"
+
 
 
       },
