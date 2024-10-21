@@ -1,9 +1,12 @@
+
+
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
 import ToasterContext from "./context/ToasterContext";
 import AuthProvider from "./context/AuthContext";
+import { FormProvider } from "./context/FormContext";
 
 
 const instrumentSans = localFont({
@@ -28,8 +31,10 @@ export default function RootLayout({
         className={`${instrumentSans.variable}  antialiased`}
       >
         <AuthProvider>
-        <ToasterContext/>
-        {children}
+          <FormProvider>
+            <ToasterContext/>
+                {children}
+          </FormProvider>
         </AuthProvider>
       </body>
     </html>
