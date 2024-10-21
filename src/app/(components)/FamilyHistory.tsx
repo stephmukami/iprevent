@@ -67,7 +67,7 @@ function FamilyHistory({}: Props) {
               <button className="w-[120px] h-[40px] text-white bg-black rounded-md border border-white">Back</button>
               </Link>
               
-              <Link href='/health'> 
+              <Link href='/previous-meds'> 
               <button className="w-[120px] h-[40px] text-white bg-brand-purple rounded-md">Next</button>
               </Link>
 

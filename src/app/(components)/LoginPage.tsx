@@ -25,7 +25,7 @@ function LoginPage({}: Props) {
       })
         .then((callback) => {
           if (callback?.error) {
-            toast("Wrong credentials, 😞try again", {
+            toast("Wrong credentials, 😞 try again", {
               duration: 5000,
               // Styling
               style: {},
@@ -109,7 +109,7 @@ function LoginPage({}: Props) {
                 </form>
             </div>
 
-        <div className="image-container  border border-red-300 md:w-2/3 ">
+        <div className="image-container   md:w-2/3 ">
             <img className='md:w-full md:h-full w-screen h-[300px]' src="./iprevent-seven.jpg" alt="image of brocolli" />
         </div>
     </div>

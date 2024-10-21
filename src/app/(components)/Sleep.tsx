@@ -33,7 +33,7 @@ function Sleep({}: Props) {
               </div>
             <div className="flex items-center justify-center ">
               <div className="nav-buttons flex justify-between pl-3 w-[650px] ">
-                <Link href='/sleep'>
+                <Link href='/diet'>
                 <button className="w-[120px] h-[40px] text-white bg-black rounded-md border border-white">Back</button>
                 </Link>
 

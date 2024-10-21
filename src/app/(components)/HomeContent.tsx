@@ -21,7 +21,7 @@ function HomeContent({}: Props) {
           <button className='w-[140px] h-[36px] rounded-md bg-brand-grey'>Register</button>
         </div>
         <div className="extra-intro-links ">
-
+      <strong>
           <div className='flex items-center space-x-2'>
           <h3 className="">Benefit from personalized assessments</h3>
           <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/1A1A1A/long-arrow-right.png" alt="long-arrow-right"/>
@@ -35,7 +35,8 @@ function HomeContent({}: Props) {
           <div className='flex items-center space-x-2 '>
           <h3 className="">Trust in ethical technology</h3>
           <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/1A1A1A/long-arrow-right.png" alt="long-arrow-right"/>
-          </div>
+          </div> 
+      </strong>
 
         </div>
 
