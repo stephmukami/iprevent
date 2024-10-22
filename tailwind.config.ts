@@ -20,7 +20,8 @@ const config: Config = {
         "brand-green": "#C2EFDC",
         "brand-purple" :"#7C3AED",
         "secondary-black": "#302E38",
-        "navbar-bg": "#f8fafc"
+        "navbar-bg": "#f8fafc",
+        "button-grey": "#6b7280"
 
 
 

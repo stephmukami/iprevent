@@ -7,17 +7,18 @@ import { useForm } from '../context/FormContext';
 type Props = object;
 
 function Diet({}: Props) {
-  const { updateFormData } = useForm(); // Access the context to update form data
-  const [dietQuality, setDietQuality] = useState(0); // Local state for diet quality
+  const { updateFormData } = useForm(); 
+  const [dietQuality, setDietQuality] = useState(0); 
 
   const handleDietQualityChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = Number(event.target.value);
     setDietQuality(value);
-    updateFormData('DietQuality', value); // Update context with diet quality
+    updateFormData('DietQuality', value); 
   };
 
   return (
-    <div className="min-h-screen min-w-screen">
+    <div className="min-h-screen min-w-screen flex flex-col justify-between">
+
       <div className="flex image-container justify-center items-center p-[20px] pt-[30px]">
         <img className='w-[319px] h-[336px]' src="./Takeaway.png" alt="3D image of takeout food" />
       </div>
@@ -33,9 +34,9 @@ function Diet({}: Props) {
           <div className="mb-[60px] w-[200px]">
             <input
               className="bg-white w-[90px] rounded-sm h-[22px] text-black"
-              type="number" // Changed to number for diet quality
-              value={dietQuality} // Bind local state to input value
-              onChange={handleDietQualityChange} // Update state and context on change
+              type="number"
+              value={dietQuality} 
+              onChange={handleDietQualityChange} 
             />
           </div>
         </div>
@@ -43,7 +44,7 @@ function Diet({}: Props) {
         <div className="flex items-center justify-center">
           <div className="nav-buttons flex justify-between pl-3 w-[650px]">
             <Link href='/sports'>
-              <button className="w-[120px] h-[40px] text-white bg-black rounded-md border border-white">Back</button>
+              <button className="w-[120px] h-[40px] text-white bg-black rounded-md border border-white ">Back</button>
             </Link>
             <Link href='/sleep'>
               <button className="w-[120px] h-[40px] text-white bg-brand-purple rounded-md">Next</button>

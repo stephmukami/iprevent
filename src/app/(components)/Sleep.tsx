@@ -17,7 +17,8 @@ function Sleep({}: Props) {
   };
 
   return (
-    <div className="min-h-screen min-w-screen">
+    <div className="min-h-screen min-w-screen flex flex-col justify-between">
+
       <div className="flex image-container justify-center items-center p-[20px] pt-[30px]">
         <img className='w-[319px] h-[336px]' src="./Moon.png" alt="3D image of sleeping moon" />
       </div>

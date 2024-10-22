@@ -47,14 +47,14 @@ function Entertainment({}: Props) {
           </div>
           <div className="binary-buttons flex space-x-4 items-center">
             <button 
-              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-black"
-              onClick={() => handleSmokingHistory(1)} // Set smoking history to 1 for Yes
+              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
+              onClick={() => handleSmokingHistory(1)} 
             >
               Yes
             </button>
             <button 
-              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
-              onClick={() => handleSmokingHistory(0)} // Set smoking history to 0 for No
+              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
+              onClick={() => handleSmokingHistory(0)} 
             >
               No
             </button>

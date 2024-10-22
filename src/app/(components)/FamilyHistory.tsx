@@ -18,24 +18,24 @@ function FamilyHistory({}: Props) {
   const [previousHistory, setPreviousHistory] = useState(0);
 
   const handleHypertension = (value: number) => {
-    setHypertension(value);
-    updateFormData('Hypertension', value); // Update context with hypertension history
+    setHypertension(value)
+    updateFormData('Hypertension', value); 
     
   };
 
   const handleFamilyHistory = (value: number) => {
     setFamilyHistory(value);
-    updateFormData('FamilyHistoryDiabetes', value); // Update context with family history
+    updateFormData('FamilyHistoryDiabetes', value); 
   };
 
   const handleGestationalDiabetes = (value: number) => {
     setGestationalDiabetes(value);
-    updateFormData('GestationalDiabetes', value); // Update context with gestational diabetes
+    updateFormData('GestationalDiabetes', value); 
   };
 
   const handlePreviousHistory = (value: number) => {
     setPreviousHistory(value);
-    updateFormData('PreviousPreDiabetes', value); // Update context with previous history
+    updateFormData('PreviousPreDiabetes', value); 
   };
 
   return (
@@ -53,14 +53,14 @@ function FamilyHistory({}: Props) {
           </div>
           <div className="binary-buttons flex space-x-4 items-center">
             <button 
-              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-black"
-              onClick={() => handleHypertension(1)} // Set hypertension to 1 for Yes
+              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
+              onClick={() => handleHypertension(1)} 
             >
               Yes
             </button>
             <button 
-              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
-              onClick={() => handleHypertension(0)} // Set hypertension to 0 for No
+              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
+              onClick={() => handleHypertension(0)} 
             >
               No
             </button>
@@ -73,14 +73,14 @@ function FamilyHistory({}: Props) {
           </div>
           <div className="binary-buttons flex space-x-4 items-center">
             <button 
-              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-black"
-              onClick={() => handleFamilyHistory(1)} // Set family history to 1 for Yes
+              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-black hover:bg-button-grey"
+              onClick={() => handleFamilyHistory(1)}
             >
               Yes
             </button>
             <button 
-              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
-              onClick={() => handleFamilyHistory(0)} // Set family history to 0 for No
+              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
+              onClick={() => handleFamilyHistory(0)} 
             >
               No
             </button>
@@ -93,14 +93,14 @@ function FamilyHistory({}: Props) {
           </div>
           <div className="binary-buttons flex space-x-4 items-center">
             <button 
-              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-black"
-              onClick={() => handleGestationalDiabetes(1)} // Set gestational diabetes to 1 for Yes
+              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
+              onClick={() => handleGestationalDiabetes(1)}
             >
               Yes
             </button>
             <button 
-              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
-              onClick={() => handleGestationalDiabetes(0)} // Set gestational diabetes to 0 for No
+              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
+              onClick={() => handleGestationalDiabetes(0)}
             >
               No
             </button>
@@ -113,14 +113,14 @@ function FamilyHistory({}: Props) {
           </div>
           <div className="binary-buttons flex space-x-4 items-center">
             <button 
-              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-black"
-              onClick={() => handlePreviousHistory(1)} // Set previous history to 1 for Yes
+              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
+              onClick={() => handlePreviousHistory(1)} 
             >
               Yes
             </button>
             <button 
-              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
-              onClick={() => handlePreviousHistory(0)} // Set previous history to 0 for No
+              className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
+              onClick={() => handlePreviousHistory(0)} 
             >
               No
             </button>

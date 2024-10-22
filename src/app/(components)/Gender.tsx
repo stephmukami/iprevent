@@ -11,22 +11,18 @@ function Gender({}: Props) {
   const { updateFormData } = useForm();
   const router = useRouter();
 
-  // Local state for the input values
   const [weight, setWeight] = useState(0);
   const [height, setHeight] = useState(0);
   const [age, setAge] = useState(0);
   const [socioeconomicStatus, setSocioeconomicStatus] = useState('');
 
-  // Handle the form submission or navigation
   const handleNext = () => {
-    // Update the context with the input values
     updateFormData('BMI', weight / ((height / 100) ** 2)); 
     updateFormData('Age', age);
     updateFormData('SocioeconomicStatus', convertSocioeconomicStatus(socioeconomicStatus));
     router.push('indulgence')
   };
 
-  // Function to convert socio-economic status to numeric value
   const convertSocioeconomicStatus = (status: string) => {
     switch (status.toLowerCase()) {
       case 'high':

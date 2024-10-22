@@ -11,29 +11,23 @@ function HealthFactors({}: Props) {
   const { updateFormData, formData } = useForm(); 
   const router = useRouter();
 
-  // Local state for health factors
   const [frequentUrination, setFrequentUrination] = useState(0);
   const [excessiveThirst, setExcessiveThirst] = useState(0);
   const [weightLoss, setWeightLoss] = useState(0);
   const [fatigueLevel, setFatigueLevel] = useState(0);
 
-  // Function to handle button clicks for binary questions
   const handleBinaryAnswer = (setter: React.Dispatch<React.SetStateAction<number>>, value: number) => {
     setter(value);
   };
 
-  // Handle prediction
   const handleGetPrediction = () => {
-    // Update the context with the input values
     updateFormData('FrequentUrination', frequentUrination);
     updateFormData('ExcessiveThirst', excessiveThirst);
     updateFormData('UnexplainedWeightLoss', weightLoss);
     updateFormData('FatigueLevels', fatigueLevel);
 
-    // Log the updated form data to the console
     console.log(formData);
 
-    // Navigate to the prediction page
     router.push('/predicted');
   };
 
@@ -49,17 +43,17 @@ function HealthFactors({}: Props) {
 
           <div className="health-factor-one mb-6 flex space-x-6 items-center">
             <div className="flex items-center">
-              <h5>13. Frequently urination Suspendisse sed varius odio. Donec vel est fermentum justo iaculis fermentum. Nulla condimentum aliquet</h5>
+              <h5> 18.Have you been experiencing frequent urination ? It can be a sign of high blood sugar levels.</h5>
             </div>
             <div className="binary-buttons flex space-x-4 items-center">
               <button
-                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
+                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
                 onClick={() => handleBinaryAnswer(setFrequentUrination, 1)}
               >
                 Yes
               </button>
               <button
-                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
+                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
                 onClick={() => handleBinaryAnswer(setFrequentUrination, 0)}
               >
                 No
@@ -69,17 +63,17 @@ function HealthFactors({}: Props) {
 
           <div className="health-factor-two mb-6 flex space-x-6 items-center">
             <div className="flex items-center">
-              <h5>14. Excessive thirst Suspendisse sed varius odio. Donec vel est fermentum justo iaculis fermentum. Nulla condimentum aliquet</h5>
+              <h5>19. Excessive thirst: have you experienced this lately ? It's often a common symptom of diabetes</h5>
             </div>
             <div className="binary-buttons flex space-x-4 items-center">
               <button
-                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
+                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
                 onClick={() => handleBinaryAnswer(setExcessiveThirst, 1)}
               >
                 Yes
               </button>
               <button
-                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
+                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
                 onClick={() => handleBinaryAnswer(setExcessiveThirst, 0)}
               >
                 No
@@ -89,17 +83,17 @@ function HealthFactors({}: Props) {
 
           <div className="health-factor-three mb-6 flex space-x-6 items-center">
             <div className="flex items-center">
-              <h5>15. Unexplained weight loss Suspendisse sed varius odio. Donec vel est fermentum justo iaculis fermentum. Nulla condimentum aliquet</h5>
+              <h5>20. How about unexplained weight loss ? Being aware of changes is crucial for early detection of diabetes. </h5>
             </div>
             <div className="binary-buttons flex space-x-4 items-center">
               <button
-                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
+                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
                 onClick={() => handleBinaryAnswer(setWeightLoss, 1)}
               >
                 Yes
               </button>
               <button
-                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px]"
+                className="bg-secondary-black text-white rounded-lg w-[95px] h-[26px] hover:bg-button-grey"
                 onClick={() => handleBinaryAnswer(setWeightLoss, 0)}
               >
                 No
@@ -107,7 +101,7 @@ function HealthFactors({}: Props) {
             </div>
           </div>
 
-          <h5 className='mb-4'>5. Fatigue levels (0-20)</h5>
+          <h5 className='mb-4'>21. Feeling fatigued can be a sign of elevated blood sugar.Input a range from (0-20)</h5>
           <div className="range flex space-x-4 p-3">
             <div>
               <label htmlFor="fatigueLevel">Range</label>
@@ -130,7 +124,7 @@ function HealthFactors({}: Props) {
 
               <button
                 className="w-[120px] h-[40px] text-white bg-green-800 rounded-md"
-                onClick={handleGetPrediction} // Call handleGetPrediction on button click
+                onClick={handleGetPrediction} 
               >
                 Get Prediction
               </button>
