@@ -50,7 +50,7 @@ function Sports({}: Props) {
             <button className="w-[120px] h-[40px] text-white bg-black rounded-md border border-white hover:bg-button-grey">Back</button>
           </Link>
           <Link href='/diet'>
-            <button className="w-[120px] h-[40px] text-white bg-brand-purple rounded-md hover:bg-button-grey">Next</button>
+            <button className="w-[120px] h-[40px] text-white bg-brand-purple rounded-md ">Next</button>
           </Link>
         </div>
       </div>

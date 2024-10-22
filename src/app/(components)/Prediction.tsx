@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import { useSearchParams } from "next/navigation";
+import Link from 'next/link';
 
 type Props = object;
 
@@ -29,12 +30,12 @@ function Prediction({}: Props) {
 
     return (
         <>
-            <div className="flex-container flex flex-col justify-center items-center w-screen  flex-grow">
+            <div className="flex-container flex flex-col justify-center items-center w-screen  ">
                 <div className="image-containermb-0 pb-0">
                     <img className="md:w-[400px] md:h-[400px] w-[300px] h-[300px]" src="./mental.png" alt="image of mind" />
                 </div>
 
-                <div className="text-container p-[40px] bg-black text-white text-center mb-0 pb-0">
+                <div className="text-container p-[40px] bg-black text-white text-center mb-0 pb-0 w-screen">
                     <h2 className="text-3xl mb-3">Here is Your Predicted Diabetes Risk Assessment</h2>
                     <div className="text-center">
                         <h5 className="mb-3">{diabetesProbability(parsedPrediction.prediction)} with {convertPercentage(parsedPrediction.highest_class_proba)} % probability</h5>
@@ -50,6 +51,9 @@ function Prediction({}: Props) {
                             ))}
                         </div>
                     </div>
+                    <Link href='/general'>
+              <button className="w-[120px] h-[40px] text-white bg-brand-purple rounded-md">Predict Again</button>
+            </Link>
                 </div>
             </div>
         </>
