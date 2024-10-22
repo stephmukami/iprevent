@@ -29,11 +29,11 @@ function Responsibility({}: Props) {
         <h3 className=' text-2xl bg-black text-white flex md:flex-row flex-col items-center p-4 '> responsible </h3>
     </div>
 
-    <div className="bottom-row bg-black text-white  flex md:flex-row flex-col md:p-[70px] p-4 md:space-x-[250px]">
+    <div className="bottom-row bg-black text-white   flex md:flex-row flex-col md:p-[70px] p-4 md:space-x-[250px] md:w-screen">
         <div className='md:w-[450px]  w-screen p-6 md:p-0 '>
         <p className='mb-4'>Our app is committed to responsible computing, giving users full control over their personal data. This includes the ability to delete their accounts and all associated data whenever they choose, ensuring complete transparency and data ownership. We believe in empowering users to manage their information with ease and confidence.</p>
 
-<p className='mb-4'>Additionally, we have established a clear accountability process. Users can report issues or inaccuracies in the app's predictions, ensuring continuous improvement and reliability of the platform. Accessibility is also a priority, with the app's interface designed to adapt seamlessly to various screen sizes and devices, making it easy to use for all individuals, regardless of the device they have.</p>
+<p className='mb-4'>Additionally, we have established a clear accountability process. Users can report issues or inaccuracies in the app predictions, ensuring continuous improvement and reliability of the platform. Accessibility is also a priority, with the app's interface designed to adapt seamlessly to various screen sizes and devices, making it easy to use for all individuals, regardless of the device they have.</p>
         </div>
 
         <div >
@@ -42,7 +42,7 @@ function Responsibility({}: Props) {
 
     </div>
 
-    <div className="feedback bg-black text-white ">
+    <div className="feedback bg-black text-white md:w-screen ">
       <div className="flex text-center justify-center items-center space-x-5 mb-4">
         <h3 className='text-2xl'>  We’re here  just for  YOU   </h3>
         <img className='w-[50px] h-[50px]' src="https://img.icons8.com/?size=100&id=FXVPqB6MxEu7&format=png&color=FFFFFF" alt="message icon" />

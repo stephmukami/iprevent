@@ -49,7 +49,7 @@ function LoginPage({}: Props) {
                 "aria-live": "polite",
               },
             })
-            router.push('/general') // Redirect to chat page upon successful login
+            router.push('/general') 
           }
         })
     }

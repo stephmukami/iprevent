@@ -34,7 +34,7 @@ function HealthFactors({}: Props) {
     console.log(formData);
 
     // Navigate to the prediction page
-    router.push('/prediction');
+    router.push('/predicted');
   };
 
   return (
@@ -45,8 +45,7 @@ function HealthFactors({}: Props) {
         </div>
 
         <div className="text-container p-[20px] bg-black text-white w-screen">
-          <h3 className='text-2xl mb-4'>Continued Explainer</h3>
-          <p className='mb-6'>Mauris semper nisl et sagittis mattis. Donec vel est fermentum justo iaculis fermentum. Nulla condimentum aliquet iaculis.</p>
+          <h3 className='text-2xl mb-4'>Just a few more questions</h3>
 
           <div className="health-factor-one mb-6 flex space-x-6 items-center">
             <div className="flex items-center">

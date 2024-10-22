@@ -8,7 +8,7 @@ function AboutContent({}: Props) {
     <div className="top-row bg-black text-center p-8 mb-4  ">
         <h3 className='text-white text-2xl mb-4'>What is iPrevent ?</h3>
         <p className='text-white mb-10 '>iPrevent leverages cutting-edge machine learning to evaluate your likelihood of developing diabetes based on personalized health data. By inputting key factors such as
-           lifestyle habits, medical history, and more, you'll receive a tailored risk assessment to help you better understand your health.
+           lifestyle habits, medical history, and more, you will receive a tailored risk assessment to help you better understand your health.
 
            Our goal is to empower you with insights that enable proactive management of your well-being.
            

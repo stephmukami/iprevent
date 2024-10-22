@@ -94,7 +94,7 @@ function PreviousMedication({}: Props) {
 
         <div className="previous-history-div mb-6 flex flex-col md:flex-row space-x-6 items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <h5>11. Antidiabetic Medications: If you are already managing diabetes, this info helps us better understand your current risk.ermentum justo iaculis fermentum. Nulla condimentum aliquet</h5>
+            <h5>11. Antidiabetic Medications: If you are already managing diabetes, this info helps us better understand your current risk.</h5>
           </div>
           <div className="binary-buttons flex space-x-4 items-center">
             <button 
@@ -114,7 +114,7 @@ function PreviousMedication({}: Props) {
 
         <div className="family-history-div mb-6 flex flex-col md:flex-row space-x-6 items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <h5>12. Slow healing sores Suspendisse sed varius odio. Donec vel est fermentum justo iaculis fermentum. Nulla condimentum aliquet</h5>
+            <h5>12. Slow healing sores can indicate issues with blood sugar control. Keeping an eye on this can help prevent complications down the line.</h5>
           </div>
           <div className="binary-buttons flex space-x-4 items-center">
             <button 
@@ -134,7 +134,7 @@ function PreviousMedication({}: Props) {
 
         <div className="family-history-div mb-6 flex flex-col md:flex-row space-x-6 items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <h5>13. Tingling hands and feet Suspendisse sed varius odio. Donec vel est fermentum justo iaculis fermentum. Nulla condimentum aliquet</h5>
+            <h5>13. Tingling Hands and Feet can be linked to nerve damage from high blood sugar. Awareness of these symptoms is essential for early intervention.</h5>
           </div>
           <div className="binary-buttons flex space-x-4 items-center">
             <button 

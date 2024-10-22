@@ -25,10 +25,9 @@ function Sports({}: Props) {
       </div>
 
       <div className="text-container p-[20px] bg-black text-white w-screen">
-        <h3 className='text-2xl mb-4'>Continued Explainer</h3>
-        <p className='mb-6'>Mauris semper nisl et sagittis mattis. Donec vel est fermentum justo iaculis fermentum. Nulla condimentum aliquet iaculis.</p>
+        <h3 className='text-2xl mb-4'>Physical Activity</h3>
         
-        <h5 className='mb-4'>6. Physical activity: Suspendisse sed varius odio. Donec vel est fermentum justo iaculis fermentum. Nulla condimentum aliquet (0-20)</h5>
+        <h5 className='mb-4'>6. Being active keeps your blood sugar in check—input your activity levels so we can see how well you are managing your risk. Range(0-20)</h5>
         <div className="range flex space-x-4 p-3">
           <div>
             <label htmlFor="range">Range of Hours</label>

@@ -5,12 +5,12 @@ type Props = object
 function Footer({}: Props) {
   return (
     <>
-    <footer className=" flex justify-center items-center   p-7 bg-black text-white w-screen ">
-        <h3 className='relative top-5'>
-        Three Amigos.dev   ❤   
-
-        </h3>
+ <footer className="flex justify-center items-center p-7 bg-black text-white w-screen mt-0 mb-0">
+    <h3 className="relative top-5">
+        Three Amigos.dev   ❤
+    </h3>
 </footer>
+
 
 
 
