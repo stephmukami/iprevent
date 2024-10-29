@@ -45,6 +45,10 @@ function Navbar({}: Props) {
             <h3 className='border-b-2 border-transparent hover:border-b-2 hover:border-b-black transition ease-in'>iResponsibility</h3>
             </Link>
 
+            <Link href="/market">
+            <h3 className='border-b-2 border-transparent hover:border-b-2 hover:border-b-black transition ease-in'>iMarket</h3>
+            </Link>
+
                 { logged ? (
                     <div className="auth-btns flex justify-center items-center  bg-secondary-grey rounded-3xl h-[50px] w-[210px]  space-x-4">
                         <Link href="/deactivate">
