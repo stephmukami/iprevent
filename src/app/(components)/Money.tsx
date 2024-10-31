@@ -24,7 +24,19 @@ function Money({}: Props) {
         </div>
     </div>
 
-    <div className="bottom-row  bg-black text-white   flex md:flex-row flex-col md:p-[70px] p-[30px] md:space-x-[500px] justify-center">
+    <div className="bottom-row  bg-black text-white   flex md:flex-row flex-col md:p-[70px] p-[30px] md:space-x-[130px] justify-center">
+        <div className="mpesa">
+            <h3 className="text-2xl font-light mb-4">Get More Insights</h3>
+             <ul className='border border-white p-6 rounded-lg w-[250px]'>
+                <li className='mb-2'>iPrevent gives a risk assessment but also so much more.</li>
+                <li className='mb-2'>Sign up for more information on your well-being</li>
+                <li className='mb-2'>Get a personalized plan on how to improve your health</li>
+                <li className='mb-2'>Contact +245(797645137) for more information</li>
+
+             </ul>
+
+        </div>
+
         <div className="mpesa">
             <h3 className="text-2xl font-light mb-4">Donate Via M-Pesa</h3>
              <ul className='border border-white p-6 rounded-lg w-[250px]'>

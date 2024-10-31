@@ -35,24 +35,24 @@ function Prediction({}: Props) {
                     <img className="md:w-[400px] md:h-[400px] w-[300px] h-[300px]" src="./mental.png" alt="image of mind" />
                 </div>
 
-                <div className="text-container p-[40px] bg-black text-white text-center mb-0 pb-0 w-screen">
-                    <h2 className="text-3xl mb-3">Here is Your Predicted Diabetes Risk Assessment</h2>
+                <div className="text-container p-[40px]  bg-secondary-grey text-black text-center mb-0 pb-0 w-screen">
+                    <h2 className="text-3xl mb-6">Here is Your Predicted Diabetes Risk Assessment</h2>
                     <div className="text-center">
-                        <h5 className="mb-3">{diabetesProbability(parsedPrediction.prediction)} with {convertPercentage(parsedPrediction.highest_class_proba)} % probability</h5>
-                        <h5 className="mb-2">Here are the top 3 features and their probabilities that contributed to the result</h5>
-                        <ul className="mb-2">
+                        <h5 className="mb-6 text-xl font-bold">{diabetesProbability(parsedPrediction.prediction)} with {convertPercentage(parsedPrediction.highest_class_proba)} % probability</h5>
+                        <h5 className="mb-4">Here are the top 3 features and their probabilities that contributed to the result</h5>
+                        <ul className="mb-2 text-xl">
                             {parsedPrediction.top_3_features && Object.entries(parsedPrediction.top_3_features).map(([feature, value]) => (
                                 <li key={feature}>{feature}: {value.toFixed(2)}%</li>
                             ))}
                         </ul>
-                        <div className="text-justify p-4">
+                        <div className="text-justify p-4 ">
                             {parsedPrediction.recommendations && parsedPrediction.recommendations.map((recommendation, index) => (
-                                <p className="mb-2" key={index}>{recommendation}</p>
+                                <p className="mb-3" key={index}>{recommendation}</p>
                             ))}
                         </div>
                     </div>
                     <Link href='/general'>
-              <button className="w-[120px] h-[40px] text-white bg-brand-purple rounded-md">Predict Again</button>
+              <button className="w-[120px] h-[40px] mb-4 text-white bg-brand-purple rounded-md">Predict Again</button>
             </Link>
                 </div>
             </div>
