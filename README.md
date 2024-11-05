@@ -14,7 +14,7 @@
   <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
-![Description](https://github.com/stephmukami/iprevent/blob/main/iprevent-gif.gif?raw=true)
+![Description](https://raw.githubusercontent.com/stephmukami/iprevent/main/iprevent-gif.gif)
 
 ## Key Features
 
