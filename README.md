@@ -15,7 +15,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://github.com/stephmukami/iprevent/blob/main/iprevent-video.gif)
+![screenshot](https://github.com/stephmukami/iprevent/blob/main/iprevent-gif.gif)
 
 ## Key Features
 
