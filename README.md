@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="iprevent logo" width="200"></a>
+  <img src="https://github.com/stephmukami/iprevent/blob/main/iPrevent%20Logo.png" alt="iprevent logo" width="200">
   <br>
   iPrevent
   <br>
@@ -11,13 +11,11 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
   <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](https://github.com/stephmukami/iprevent/blob/main/iprevent-video.gif)
 
 ## Key Features
 
@@ -61,10 +59,6 @@ $ python app.py
 ## Related
 
 [markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
-
-
-## Social Media Links:
-
 
 ## License
 
