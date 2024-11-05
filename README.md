@@ -22,14 +22,14 @@
 * Authentication and authorization
   - Create your own account and log in
 * Risk prediction
-  - Fill in information as directed to feed our random forest machine learning model.
+  - Fill in information as directed to feed our random forest machine learning model
   - Find out the percentage risk of being diagnosed with Type 2 diabetes
 * Intepretability Analysis
   - Get a list of health attributes that contributed to your risk prediction  
 * Relevant recommendations
   - Obtain some next steps to improve your health habits based on your risk prediction
 *Adherence to responsible computing aspects
-  - Deactivate and delete your account to maintain your provacy
+  - Deactivate and delete your account to maintain your privacy
   - Send a message of ny provacy concerns you have
 ## How To Use
 
@@ -65,18 +65,13 @@ $ python app.py
 MIT
 
 ---
-## Social Media Links:
+## Meet the Team :
 ### Stephanie Mukami
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
-> 
+> GitHub [@stephmukami](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
 ### Brain Macharia
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+> GitHub [@RyanSmoak](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
+
 > 
 ### Justine Kebiba
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
 > GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+
