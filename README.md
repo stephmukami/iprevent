@@ -14,7 +14,11 @@
   <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
-![Description](https://raw.githubusercontent.com/stephmukami/iprevent/main/iprevent-gif.gif)
+<video width="600" controls>
+  <source src="https://raw.githubusercontent.com/stephmukami/iprevent/main/iprevent-gif.gif" type="video/mp4">
+  
+</video>
+
 
 ## Key Features
 
