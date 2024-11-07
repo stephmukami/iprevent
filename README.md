@@ -76,5 +76,5 @@ MIT
 
 > 
 ### Justine Kebiba
-> GitHub [@onsaringo](https://github.com/onsaringo) &nbsp;&middot;&nbsp;
+> GitHub [@onsarigo](https://github.com/onsarigo) &nbsp;&middot;&nbsp;
 
