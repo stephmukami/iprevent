@@ -70,11 +70,11 @@ MIT
 ---
 ## Meet the Team :
 ### Stephanie Mukami
-> GitHub [@stephmukami](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
+> GitHub [@stephmukami](https://github.com/stephmukami) &nbsp;&middot;&nbsp;
 ### Brain Macharia
-> GitHub [@RyanSmoak](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
+> GitHub [@RyanSmoak](https://github.com/RyanSmoak) &nbsp;&middot;&nbsp;
 
 > 
 ### Justine Kebiba
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
+> GitHub [@onsaringo](https://github.com/onsaringo) &nbsp;&middot;&nbsp;
 
