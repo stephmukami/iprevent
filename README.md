@@ -11,7 +11,6 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
 <video width="600" controls>
