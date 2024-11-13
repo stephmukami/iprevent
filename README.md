@@ -14,7 +14,7 @@
   <a href="#tech-skills">Technical Skills Gained</a> •
   <a href="#license">License</a>
 </p>
-<div>
+<div align="center">
    <img src="https://github.com/stephmukami/iprevent-diabetes-risk-prediction/blob/main/project-pics/ip-one.PNG" alt="iprevent home" width="400">
   <img src= "https://github.com/stephmukami/iprevent-diabetes-risk-prediction/blob/main/project-pics/ip-responsibility.PNG" width="400">
   <img src="https://github.com/stephmukami/iprevent-diabetes-risk-prediction/blob/main/project-pics/ip-monetization.PNG" alt="iprevent monitezation" width="400">
