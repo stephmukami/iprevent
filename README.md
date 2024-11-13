@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+<h1 align="center">
+  <br>
+  <img src="https://github.com/stephmukami/iprevent/blob/main/iPrevent%20Logo.png" alt="iprevent logo" width="200">
+  <br>
+  iPrevent
+  <br>
+</h1>
 
-First, run the development server:
+<h4 align="center">A machine learning approach to predicting Type 2 Diabetes.</h4>
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#license">License</a>
+</p>
+<video width="600" controls>
+  <source src="https://raw.githubusercontent.com/stephmukami/iprevent/main/iprevent-gif.gif" type="video/mp4">
+  
+</video>
+
+
+## Key Features
+
+* Authentication and authorization
+  - Create your own account and log in
+* Risk prediction
+  - Fill in information as directed to feed our random forest machine learning model
+  - Find out the percentage risk of being diagnosed with Type 2 diabetes
+* Intepretability Analysis
+  - Get a list of health attributes that contributed to your risk prediction  
+* Relevant recommendations
+  - Obtain some next steps to improve your health habits based on your risk prediction
+*Adherence to responsible computing aspects
+  - Deactivate and delete your account to maintain your privacy
+  - Send a message of ny provacy concerns you have
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) [Python](https://www.python.org/downloads/) and [Flask](https://flask.palletsprojects.com/en/stable/installation/) installed on your computer. From your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone this repository
+$ git clone https://github.com/stephmukami/iprevent
+
+# Go into the repository
+$ cd iprevent
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
+
+# Run the ml backend
+$ cd server
+$ python app.py
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+MIT
 
-## Learn More
+---
+## Meet the Team :
+### Stephanie Mukami
+> GitHub [@stephmukami](https://github.com/stephmukami) &nbsp;&middot;&nbsp;
+### Brain Macharia
+> GitHub [@RyanSmoak](https://github.com/RyanSmoak) &nbsp;&middot;&nbsp;
 
-To learn more about Next.js, take a look at the following resources:
+> 
+### Justine Kebiba
+> GitHub [@onsarigo](https://github.com/onsarigo) &nbsp;&middot;&nbsp;
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
