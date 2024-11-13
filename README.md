@@ -11,12 +11,15 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
+  <a href="#tech-skills">Technical Skills Gained</a> •
   <a href="#license">License</a>
 </p>
-<video width="600" controls>
-  <source src="https://raw.githubusercontent.com/stephmukami/iprevent/main/iprevent-gif.gif" type="video/mp4">
-  
-</video>
+<div>
+   <img src="https://github.com/stephmukami/iprevent-diabetes-risk-prediction/blob/main/project-pics/ip-one.PNG" alt="iprevent home" width="400">
+  <img src= "https://github.com/stephmukami/iprevent-diabetes-risk-prediction/blob/main/project-pics/ip-responsibility.PNG" width="400">
+  <img src="https://github.com/stephmukami/iprevent-diabetes-risk-prediction/blob/main/project-pics/ip-monetization.PNG" alt="iprevent monitezation" width="400">
+  <img src="https://github.com/stephmukami/iprevent-diabetes-risk-prediction/blob/main/project-pics/iprevent-page.PNG" alt="iprevent prediction" width="400">
+</div>
 
 
 ## Key Features
@@ -63,6 +66,14 @@ $ python app.py
 MIT
 
 ---
+## Technical Skills Gained
+- Authentication and authorization using Next- Auth
+- Client-side and server-side rendering
+- State management
+- Managing types in TypeScript
+- User-centered design
+- Responsible computing principles e.g accountability and privacy
+
 ## Meet the Team :
 ### Stephanie Mukami
 > GitHub [@stephmukami](https://github.com/stephmukami) &nbsp;&middot;&nbsp;
