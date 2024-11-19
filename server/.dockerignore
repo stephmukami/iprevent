@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+
+*.pkl
+*.log
+
+.env
+
+.git
+.gitignore
+
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
