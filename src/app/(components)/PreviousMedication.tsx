@@ -46,7 +46,7 @@ function PreviousMedication({}: Props) {
   return (
     <div className="min-h-screen min-w-screen">
       <div className="flex image-container justify-center items-center p-[20px] pt-[30px]">
-        <img className='w-[319px] h-[336px]' src="./nurse.png" alt="3D image of a nurse" />
+        <img className="w-[319px] h-[336px]" src="./nurse.png" alt="3D image of a nurse" />
       </div>
 
       <div className="text-container p-[20px] bg-black text-white w-screen">
@@ -74,7 +74,7 @@ function PreviousMedication({}: Props) {
 
         <div className="gestational-diabetes-div mb-6 flex flex-col md:flex-row space-x-6 items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <h5>14. Antihypertensive Medications: If you're taking medications for blood pressure, it can affect your blood sugar levels—important for accurate result .</h5>
+            <h5>14. Antihypertensive Medications: If you are taking medications for blood pressure, it can affect your blood sugar levels—important for accurate result .</h5>
           </div>
           <div className="binary-buttons flex space-x-4 items-center">
             <button 

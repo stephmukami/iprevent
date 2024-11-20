@@ -14,11 +14,7 @@ function Prediction({}: Props) {
     const convertPercentage = (probability: number) => {
         return (probability * 100).toFixed(1);
     };
-    const getRiskLevel = (probability: number) => {
-        if (probability >= 0.7) return "High Risk";
-        if (probability >= 0.3) return "Moderate Risk";
-        return "Low Risk";
-    };
+
 
     const diabetesProbability = (predictedClass: number) => {
         if (predictedClass === 1) {
@@ -27,6 +23,7 @@ function Prediction({}: Props) {
             return 'You are not likely to get diabetes';
         }
     };
+
 
     return (
         <>
