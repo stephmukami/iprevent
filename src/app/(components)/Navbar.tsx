@@ -12,7 +12,7 @@ function Navbar({}: Props) {
    const [logged, setLogged] = useState(false)
 
    useEffect(() => {
-    if (session?.status === 'authenticated') {
+    if (session?.status === 'authenticated') { //can also check for user.session under auth() on server side
       setLogged(true)
     }
   })

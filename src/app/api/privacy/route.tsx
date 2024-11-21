@@ -1,9 +1,9 @@
 import {prisma} from '@/app/lib/prisma'
 
-import { NextResponse } from 'next/server'
+import { NextResponse, NextRequest } from 'next/server'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export async function POST(request: { json: any }){
+export async function POST(request: NextRequest){
 try{
     const body = await request.json();
     const {note} = body ;

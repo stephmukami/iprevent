@@ -5,12 +5,31 @@ import Link from 'next/link';
 
 type Props = object;
 
+type Top3Features = {
+    [key: string]: number;
+  };
+  
+  type PredictionData = {
+    highest_class_proba: number;
+    prediction: number;
+    prediction_proba: number[];
+    recommendations: string[];
+    top_3_features: Top3Features;
+  };
+
 function Prediction({}: Props) {
     const searchParams = useSearchParams();
     const prediction = searchParams.get("prediction");
 
-    const parsedPrediction = prediction ? JSON.parse(prediction) : {};
-
+    const parsedPrediction: PredictionData = prediction 
+    ? JSON.parse(prediction) 
+    : {
+      highest_class_proba: 0,
+      prediction: 0,
+      prediction_proba: [],
+      recommendations: [],
+      top_3_features: {}
+    };
     const convertPercentage = (probability: number) => {
         return (probability * 100).toFixed(1);
     };
