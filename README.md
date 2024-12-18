@@ -1,8 +1,6 @@
 
 <h1 align="center">
-  <br>
-  <img src="https://github.com/stephmukami/iprevent/blob/main/iPrevent%20Logo.png" alt="iprevent logo" width="200">
-  <br>
+
   iPrevent
   <br>
 </h1>
